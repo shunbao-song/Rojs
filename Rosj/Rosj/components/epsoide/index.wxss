@@ -1,0 +1,51 @@
+.index{
+  font-size:30px;
+  line-height: 30px;
+  font-weight:800;
+  margin-right:7px;
+}
+
+.line{
+  margin-right:7px;
+  margin-bottom: 2rpx;
+  height:22px;
+  border-left:1px solid black;
+}
+
+.plain{
+  font-size:16px;
+}
+
+.container{
+  display:inline-flex;
+  flex-direction: row;
+  height: 60rpx;
+
+}
+
+.index-container{
+  display:flex;
+  flex-direction: row;
+  align-items: baseline;      
+}
+
+.date-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rpx;
+  /* justify-content: center;  */
+  
+}
+
+.month{
+  font-size:12px;
+  line-height:12px; 
+  padding-bottom: 2px; 
+  margin-right:2rpx;
+}
+
+.year{
+  font-size:10px;
+  line-height:10px; 
+  /* padding-bottom:3px;    */
+}
